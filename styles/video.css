@@ -1,0 +1,34 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;      
+    column-gap: 15px;
+    row-gap: 25px;                        
+}
+.video-cover{
+    height: 175px;
+    width: 100%;
+
+}
+.video-grid-info{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-top: 15px;
+    align-items: center;
+}
+.profile{
+    width: 100%;
+    border-radius: 100px;
+}
+.video-info{
+    margin-left: 15px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.video-author, .video-stats{
+    color: gray;
+}
+.video-stats{
+    margin-top: 15px;
+}

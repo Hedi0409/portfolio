@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+
+}
+.right-section{
+    background-color: aqua;
+    width: 100%;
+    width: 150px;
+}
+.center-section{
+    background-color: aquamarine;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-right: 35px;
+    flex: 1;
+    display: flex;
+}
+.left-section{
+    width: 200px;
+}
+.menu{
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+.logo{
+    height: 30px
+}
+.search-box{
+    flex: 2;
+    height: 35px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search-box:focus{
+    outline: none;
+}
+.search-button{
+
+}
+.search-icon{
+    height: 15px;
+}
